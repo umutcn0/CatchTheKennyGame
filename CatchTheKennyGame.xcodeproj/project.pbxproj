@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76142054284F7BBB008B9248 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76142053284F7BBB008B9248 /* AppDelegate.swift */; };
+		76142056284F7BBB008B9248 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76142055284F7BBB008B9248 /* SceneDelegate.swift */; };
+		76142058284F7BBB008B9248 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76142057284F7BBB008B9248 /* ViewController.swift */; };
+		7614205B284F7BBB008B9248 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76142059284F7BBB008B9248 /* Main.storyboard */; };
+		7614205D284F7BBD008B9248 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7614205C284F7BBD008B9248 /* Assets.xcassets */; };
+		76142060284F7BBD008B9248 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7614205E284F7BBD008B9248 /* LaunchScreen.storyboard */; };
+		7614206B284F7BBD008B9248 /* CatchTheKennyGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7614206A284F7BBD008B9248 /* CatchTheKennyGameTests.swift */; };
+		76142075284F7BBD008B9248 /* CatchTheKennyGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76142074284F7BBD008B9248 /* CatchTheKennyGameUITests.swift */; };
+		76142077284F7BBD008B9248 /* CatchTheKennyGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76142076284F7BBD008B9248 /* CatchTheKennyGameUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		76142067284F7BBD008B9248 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76142048284F7BBB008B9248 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7614204F284F7BBB008B9248;
+			remoteInfo = CatchTheKennyGame;
+		};
+		76142071284F7BBD008B9248 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76142048284F7BBB008B9248 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7614204F284F7BBB008B9248;
+			remoteInfo = CatchTheKennyGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		76142050284F7BBB008B9248 /* CatchTheKennyGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatchTheKennyGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76142053284F7BBB008B9248 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		76142055284F7BBB008B9248 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		76142057284F7BBB008B9248 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7614205A284F7BBB008B9248 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7614205C284F7BBD008B9248 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7614205F284F7BBD008B9248 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		76142061284F7BBD008B9248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76142066284F7BBD008B9248 /* CatchTheKennyGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatchTheKennyGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7614206A284F7BBD008B9248 /* CatchTheKennyGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchTheKennyGameTests.swift; sourceTree = "<group>"; };
+		76142070284F7BBD008B9248 /* CatchTheKennyGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatchTheKennyGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76142074284F7BBD008B9248 /* CatchTheKennyGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchTheKennyGameUITests.swift; sourceTree = "<group>"; };
+		76142076284F7BBD008B9248 /* CatchTheKennyGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchTheKennyGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7614204D284F7BBB008B9248 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76142063284F7BBD008B9248 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7614206D284F7BBD008B9248 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76142047284F7BBB008B9248 = {
+			isa = PBXGroup;
+			children = (
+				76142052284F7BBB008B9248 /* CatchTheKennyGame */,
+				76142069284F7BBD008B9248 /* CatchTheKennyGameTests */,
+				76142073284F7BBD008B9248 /* CatchTheKennyGameUITests */,
+				76142051284F7BBB008B9248 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76142051284F7BBB008B9248 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76142050284F7BBB008B9248 /* CatchTheKennyGame.app */,
+				76142066284F7BBD008B9248 /* CatchTheKennyGameTests.xctest */,
+				76142070284F7BBD008B9248 /* CatchTheKennyGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76142052284F7BBB008B9248 /* CatchTheKennyGame */ = {
+			isa = PBXGroup;
+			children = (
+				76142053284F7BBB008B9248 /* AppDelegate.swift */,
+				76142055284F7BBB008B9248 /* SceneDelegate.swift */,
+				76142057284F7BBB008B9248 /* ViewController.swift */,
+				76142059284F7BBB008B9248 /* Main.storyboard */,
+				7614205C284F7BBD008B9248 /* Assets.xcassets */,
+				7614205E284F7BBD008B9248 /* LaunchScreen.storyboard */,
+				76142061284F7BBD008B9248 /* Info.plist */,
+			);
+			path = CatchTheKennyGame;
+			sourceTree = "<group>";
+		};
+		76142069284F7BBD008B9248 /* CatchTheKennyGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				7614206A284F7BBD008B9248 /* CatchTheKennyGameTests.swift */,
+			);
+			path = CatchTheKennyGameTests;
+			sourceTree = "<group>";
+		};
+		76142073284F7BBD008B9248 /* CatchTheKennyGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				76142074284F7BBD008B9248 /* CatchTheKennyGameUITests.swift */,
+				76142076284F7BBD008B9248 /* CatchTheKennyGameUITestsLaunchTests.swift */,
+			);
+			path = CatchTheKennyGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7614204F284F7BBB008B9248 /* CatchTheKennyGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7614207A284F7BBD008B9248 /* Build configuration list for PBXNativeTarget "CatchTheKennyGame" */;
+			buildPhases = (
+				7614204C284F7BBB008B9248 /* Sources */,
+				7614204D284F7BBB008B9248 /* Frameworks */,
+				7614204E284F7BBB008B9248 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CatchTheKennyGame;
+			productName = CatchTheKennyGame;
+			productReference = 76142050284F7BBB008B9248 /* CatchTheKennyGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		76142065284F7BBD008B9248 /* CatchTheKennyGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7614207D284F7BBD008B9248 /* Build configuration list for PBXNativeTarget "CatchTheKennyGameTests" */;
+			buildPhases = (
+				76142062284F7BBD008B9248 /* Sources */,
+				76142063284F7BBD008B9248 /* Frameworks */,
+				76142064284F7BBD008B9248 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76142068284F7BBD008B9248 /* PBXTargetDependency */,
+			);
+			name = CatchTheKennyGameTests;
+			productName = CatchTheKennyGameTests;
+			productReference = 76142066284F7BBD008B9248 /* CatchTheKennyGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7614206F284F7BBD008B9248 /* CatchTheKennyGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76142080284F7BBD008B9248 /* Build configuration list for PBXNativeTarget "CatchTheKennyGameUITests" */;
+			buildPhases = (
+				7614206C284F7BBD008B9248 /* Sources */,
+				7614206D284F7BBD008B9248 /* Frameworks */,
+				7614206E284F7BBD008B9248 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76142072284F7BBD008B9248 /* PBXTargetDependency */,
+			);
+			name = CatchTheKennyGameUITests;
+			productName = CatchTheKennyGameUITests;
+			productReference = 76142070284F7BBD008B9248 /* CatchTheKennyGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76142048284F7BBB008B9248 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					7614204F284F7BBB008B9248 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					76142065284F7BBD008B9248 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 7614204F284F7BBB008B9248;
+					};
+					7614206F284F7BBD008B9248 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 7614204F284F7BBB008B9248;
+					};
+				};
+			};
+			buildConfigurationList = 7614204B284F7BBB008B9248 /* Build configuration list for PBXProject "CatchTheKennyGame" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76142047284F7BBB008B9248;
+			productRefGroup = 76142051284F7BBB008B9248 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7614204F284F7BBB008B9248 /* CatchTheKennyGame */,
+				76142065284F7BBD008B9248 /* CatchTheKennyGameTests */,
+				7614206F284F7BBD008B9248 /* CatchTheKennyGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7614204E284F7BBB008B9248 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76142060284F7BBD008B9248 /* LaunchScreen.storyboard in Resources */,
+				7614205D284F7BBD008B9248 /* Assets.xcassets in Resources */,
+				7614205B284F7BBB008B9248 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76142064284F7BBD008B9248 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7614206E284F7BBD008B9248 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7614204C284F7BBB008B9248 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76142058284F7BBB008B9248 /* ViewController.swift in Sources */,
+				76142054284F7BBB008B9248 /* AppDelegate.swift in Sources */,
+				76142056284F7BBB008B9248 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76142062284F7BBD008B9248 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7614206B284F7BBD008B9248 /* CatchTheKennyGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7614206C284F7BBD008B9248 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76142077284F7BBD008B9248 /* CatchTheKennyGameUITestsLaunchTests.swift in Sources */,
+				76142075284F7BBD008B9248 /* CatchTheKennyGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76142068284F7BBD008B9248 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7614204F284F7BBB008B9248 /* CatchTheKennyGame */;
+			targetProxy = 76142067284F7BBD008B9248 /* PBXContainerItemProxy */;
+		};
+		76142072284F7BBD008B9248 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7614204F284F7BBB008B9248 /* CatchTheKennyGame */;
+			targetProxy = 76142071284F7BBD008B9248 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		76142059284F7BBB008B9248 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7614205A284F7BBB008B9248 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7614205E284F7BBD008B9248 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7614205F284F7BBD008B9248 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76142078284F7BBD008B9248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		76142079284F7BBD008B9248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7614207B284F7BBD008B9248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = APVF6KCYQN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CatchTheKennyGame/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.umutcn.CatchTheKennyGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7614207C284F7BBD008B9248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = APVF6KCYQN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CatchTheKennyGame/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.umutcn.CatchTheKennyGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7614207E284F7BBD008B9248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = APVF6KCYQN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.umutcn.CatchTheKennyGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CatchTheKennyGame.app/CatchTheKennyGame";
+			};
+			name = Debug;
+		};
+		7614207F284F7BBD008B9248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = APVF6KCYQN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.umutcn.CatchTheKennyGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CatchTheKennyGame.app/CatchTheKennyGame";
+			};
+			name = Release;
+		};
+		76142081284F7BBD008B9248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = APVF6KCYQN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.umutcn.CatchTheKennyGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CatchTheKennyGame;
+			};
+			name = Debug;
+		};
+		76142082284F7BBD008B9248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = APVF6KCYQN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.umutcn.CatchTheKennyGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CatchTheKennyGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7614204B284F7BBB008B9248 /* Build configuration list for PBXProject "CatchTheKennyGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76142078284F7BBD008B9248 /* Debug */,
+				76142079284F7BBD008B9248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7614207A284F7BBD008B9248 /* Build configuration list for PBXNativeTarget "CatchTheKennyGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7614207B284F7BBD008B9248 /* Debug */,
+				7614207C284F7BBD008B9248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7614207D284F7BBD008B9248 /* Build configuration list for PBXNativeTarget "CatchTheKennyGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7614207E284F7BBD008B9248 /* Debug */,
+				7614207F284F7BBD008B9248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76142080284F7BBD008B9248 /* Build configuration list for PBXNativeTarget "CatchTheKennyGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76142081284F7BBD008B9248 /* Debug */,
+				76142082284F7BBD008B9248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76142048284F7BBB008B9248 /* Project object */;
+}
